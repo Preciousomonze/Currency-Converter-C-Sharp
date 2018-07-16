@@ -24,6 +24,25 @@ namespace Currency_Converter
     /// </summary>
     sealed partial class App : Application
     {
+        private string edit_time_format = "yyyy-MM-dd hh:mm:ss";
+        public string Edit_time_format
+        {
+            get { return edit_time_format; }
+            private set { edit_time_format = value; }
+        }
+        /// <summary>
+        /// set the database name, will be changed dynamically with the help of the ChooseDB() method or if the new connection is made
+        /// </summary>
+        private string db_name = "";
+        /// <summary>
+        /// set the database name, will be changed dynamically with the help of the ChooseDB() method or if the new connection is made
+        /// </summary>
+        public string Db_name
+        {
+            get { return db_name; }
+            set { db_name = value; }
+        }
+        
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().

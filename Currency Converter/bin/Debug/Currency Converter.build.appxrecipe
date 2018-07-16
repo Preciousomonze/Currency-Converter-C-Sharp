@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>OLAS</Machine>
+    <WindowsUser>crisp</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>a9da0371-6457-49e4-ad92-820600f5933c</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\Currency Converter.exe">
+      <PackagePath>Currency Converter.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.0\MySql.Data.RT.dll">
+      <PackagePath>MySql.Data.RT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\Currency Converter.xr.xml">
+      <PackagePath>Currency Converter.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -12,7 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
+using Currency_Converter.Pekky;
+using System.Net.Http;
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Currency_Converter
@@ -25,6 +26,28 @@ namespace Currency_Converter
         public MainPage()
         {
             this.InitializeComponent();
+        }
+        /// <summary>
+        /// basically to update the database
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void UpdateDBCurrency_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ConvertBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        ///<summary>
+        ///Handling the conversion calculation
+        ///</summary>
+        public double conversion()
+        {
+
+            return double;
         }
     }
 }

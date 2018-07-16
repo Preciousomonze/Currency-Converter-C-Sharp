@@ -1,0 +1,46 @@
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\App.xbf
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\MainPage.xbf
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\Currency Converter.xr.xml
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\Currency Converter.exe
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\Currency Converter.pdb
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\resources.pri
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\AppxManifest.xml
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\Currency Converter.build.appxrecipe
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\App.g.i.cs
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\App.g.cs
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MainPage.g.i.cs
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MainPage.g.cs
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\App.xaml
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MainPage.xaml
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\App.xbf
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MainPage.xbf
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\XamlSaveStateFile.xml
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\Currency Converter.exe
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\Currency Converter.pdb
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\priconfig.xml
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\priconfig.xml.intermediate
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\layout.resfiles
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\layout.resfiles.intermediate
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\resources.resfiles
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\resources.resfiles.intermediate
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\pri.resfiles
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\pri.resfiles.intermediate
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\qualifiers.txt
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\qualifiers.txt.intermediate
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\ProjectArchitectures.txt
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\Currency Converter.csprojResolveAssemblyReference.cache
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\MySql.Data.RT.dll
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\en-US\MySql.Data.RT.Properties.Resources.resw
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\Currency Converter.csproj.GenerateResource.Cache
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\layout.resfiles
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\layout.resfiles.intermediate
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\Resources.resfiles
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\Resources.resfiles.intermediate
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\pri.resfiles
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\pri.resfiles.intermediate
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\priconfig.xml
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\priconfig.xml.intermediate
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT.pri
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\qualifiers.txt
