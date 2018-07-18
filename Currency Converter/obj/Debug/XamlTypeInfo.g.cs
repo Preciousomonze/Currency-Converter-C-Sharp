@@ -529,3 +529,7 @@ namespace Currency_Converter.Currency_Converter_XamlTypeInfo
 }
 
 
+
+
+
+

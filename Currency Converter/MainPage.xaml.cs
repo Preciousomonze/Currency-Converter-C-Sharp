@@ -140,7 +140,7 @@ namespace Currency_Converter
             RateFromTo.Text = fromRec[0] + " to " + toRec[0];
             //get the direct conversion
             double rateVal = this.InnerConversion(1, toRate, false);
-            RateText.Text = fromRec[1] + "1 ("+fromRec[0]+") = " + toRec[1]+rateVal.ToString("#.#####")+" ("+toRec[0]+")";
+            RateText.Text = fromRec[1] + "1 ("+fromRec[0]+") = " + toRec[1]+rateVal.ToString("0.#####")+" ("+toRec[0]+")";
             return toAmount;
         }
         /// <summary>
@@ -156,13 +156,13 @@ namespace Currency_Converter
            double newAmount = 0;
            if (dollarConvert == true)//convert to dollar
            {
-               if (rate > 1)//divide,cause dollar is higher, since we're converting to dollar first
+               if (rate > 1)//multiply,cause dollar is higher, since we're converting to dollar first
                {
-                   newAmount = amount / rate;
+                   newAmount = amount * rate;
                }
                else
-               {//multiply cause dollar is lower, since we're converting to dollar first
-                   newAmount = amount * rate;
+               {//divide cause dollar is lower, since we're converting to dollar first
+                   newAmount = amount / rate;
                }
            }
            else
