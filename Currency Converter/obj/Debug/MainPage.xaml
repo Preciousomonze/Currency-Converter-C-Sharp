@@ -41,16 +41,16 @@
                                     <ComboBox x:Name="ConvertTo" Height="50" Padding="10 15 0 0" ToolTipService.ToolTip="Select the currency you're converting to" PlaceholderText="To" BorderBrush="#33000000" Background="#f9f9f9" BorderThickness="1" Margin="10 20 10 20">
                                         <ComboBoxItem Foreground="#33000000" IsEnabled="False">Select Currency to convert to</ComboBoxItem>
                                     </ComboBox>
-                                    <Button x:ConnectionId='2' x:Name="ConvertBtn"                           HorizontalAlignment="Stretch" Content="Convert" FontSize="20" Width="150" Height="60" Margin="0 30 10 0" BorderBrush="#26000000" BorderThickness="1" Background="OrangeRed" Foreground="#ffffff"/>
+                                    <Button x:ConnectionId='2' x:Name="ConvertBtn"                           HorizontalAlignment="Stretch" Content="Convert" FontSize="20" Width="250" Height="60" Margin="0 30 10 0" BorderBrush="#26000000" BorderThickness="1" Background="OrangeRed" Foreground="#ffffff"/>
                                     <TextBox x:Name="convertedValue" IsReadOnly="True" Width="auto" PlaceholderText="Result" Height="50" Padding="10 15 0 0" BorderBrush="#33000000" Background="#f9f9f9" BorderThickness="1" Margin="10 20 10 20"/>
                                 </StackPanel>
                             </Border>
                             <StackPanel Orientation="Horizontal" Width="700" HorizontalAlignment="Right">
                                 <TextBlock Text="" FontSize="17"/>
                                 <HyperlinkButton x:ConnectionId='1' x:Name="UpdateDBCurrency" ToolTipService.ToolTip="Click this to update new currency value into the database, note, internet is required" Foreground="#ffffff" Padding="0" Margin="5 -6 0 0"                               >
-                                    <HyperlinkButton.Content>
-                                        Update Conversion rate
-                                    </HyperlinkButton.Content>
+                                    <!-- <HyperlinkButton.Content>
+                                       Update Conversion rate
+                                    </HyperlinkButton.Content>-->
 
                                 </HyperlinkButton>
                             </StackPanel>
@@ -71,7 +71,7 @@
                                 </StackPanel>
                                 <Border BorderBrush="#33ffffff" BorderThickness="1"/>
                                 <StackPanel>
-                                    <TextBlock x:Name="RateText" Text="" FontSize="20" Foreground="#ffffff" Margin="20 30 20 30"/>
+                                    <TextBlock x:Name="RateText" Text="" FontSize="20" HorizontalAlignment="Center" Foreground="#ffffff" Margin="10 30 10 30"/>
                                 </StackPanel>
                             </StackPanel>
                         </Border>
