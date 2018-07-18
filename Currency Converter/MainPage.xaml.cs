@@ -101,7 +101,7 @@ namespace Currency_Converter
             string fromCurrencyId = this.GetCurrencyId(fromText);
             string toCurrencyId = this.GetCurrencyId(toText);
             //call the conversion stuff
-            convertedValue.Text = Convert.ToString(this.Conversion(Convert.ToDouble(value), fromCurrencyId, toCurrencyId));
+            convertedValue.Text = this.Conversion(Convert.ToDouble(value), fromCurrencyId, toCurrencyId).ToString("0.######");
             //sorry i had to put it in one line, no time to waste time :)
         }
         ///<summary>
@@ -140,7 +140,7 @@ namespace Currency_Converter
             RateFromTo.Text = fromRec[0] + " to " + toRec[0];
             //get the direct conversion
             double rateVal = this.InnerConversion(1, toRate, false);
-            RateText.Text = "1" + fromRec[1] + "("+fromRec[0]+") = 250" + toRec[1]+"("+toRec[0]+")";
+            RateText.Text = fromRec[1] + "1 ("+fromRec[0]+") = " + toRec[1]+rateVal.ToString("#.#####")+" ("+toRec[0]+")";
             return toAmount;
         }
         /// <summary>
