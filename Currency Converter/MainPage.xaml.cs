@@ -97,6 +97,11 @@ namespace Currency_Converter
                 p = new PopUp("Please Select a currency to convert from and to");
                 return;
             }
+            if (fromText == toText)//this person is a monkey, don't convert with same currency
+            {
+                p = new PopUp("Please Select different currencies!");
+                return;
+            }
             //continue
             string fromCurrencyId = this.GetCurrencyId(fromText);
             string toCurrencyId = this.GetCurrencyId(toText);
@@ -142,7 +147,7 @@ namespace Currency_Converter
             double theFromRateVal = this.InnerConversion(1, fromRate);
             double theToRateVal = this.InnerConversion(theFromRateVal, toRate, false);
             double rateVal = theToRateVal;//just put it here, no much reason
-            RateText.Text = fromRec[1] + "1 ("+fromRec[0]+") = " + toRec[1]+rateVal.ToString("0.###")+" ("+toRec[0]+")";
+            RateText.Text = fromRec[1] + "1 ("+fromRec[0]+") = " + toRec[1]+rateVal.ToString("0.#####")+" ("+toRec[0]+")";
           
             return toAmount;
         }
