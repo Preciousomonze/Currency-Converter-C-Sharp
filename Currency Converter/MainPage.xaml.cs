@@ -143,7 +143,6 @@ namespace Currency_Converter
             double theToRateVal = this.InnerConversion(theFromRateVal, toRate, false);
             double rateVal = theToRateVal;//just put it here, no much reason
             RateText.Text = fromRec[1] + "1 ("+fromRec[0]+") = " + toRec[1]+rateVal.ToString("0.#####")+" ("+toRec[0]+")";
-            double toate = Convert.ToDouble(toRec[6]);
           
             return toAmount;
         }
