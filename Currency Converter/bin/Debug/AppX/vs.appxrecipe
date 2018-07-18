@@ -26,7 +26,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\Currency Converter.exe">
       <PackagePath>Currency Converter.exe</PackagePath>
-      <Modified>2018-07-18T08:00:40.018</Modified>
+      <Modified>2018-07-18T09:19:56.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.0\MySql.Data.RT.dll">
       <PackagePath>MySql.Data.RT.dll</PackagePath>
@@ -65,7 +65,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-07-18T02:14:40.239</Modified>
+      <Modified>2018-07-18T09:13:05.661</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

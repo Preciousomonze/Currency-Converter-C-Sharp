@@ -138,8 +138,10 @@ namespace Currency_Converter
             RateStory.Opacity = 1;
             RateTitle.Text = "Rate";
             RateFromTo.Text = fromRec[0] + " to " + toRec[0];
-            //get the direct conversion
-            double rateVal = this.InnerConversion(1, toRate, false);
+            //get the direct conversion .i.e 1 pound = 473 naira, an example
+            double theFromRateVal = this.InnerConversion(1, fromRate);
+            double theToRateVal = this.InnerConversion(theFromRateVal, toRate, false);
+            double rateVal = theToRateVal;//just put it here, no much reason
             RateText.Text = fromRec[1] + "1 ("+fromRec[0]+") = " + toRec[1]+rateVal.ToString("0.#####")+" ("+toRec[0]+")";
             return toAmount;
         }
