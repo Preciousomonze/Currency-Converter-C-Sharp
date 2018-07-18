@@ -101,7 +101,7 @@ namespace Currency_Converter
             string fromCurrencyId = this.GetCurrencyId(fromText);
             string toCurrencyId = this.GetCurrencyId(toText);
             //call the conversion stuff
-            convertedValue.Text = this.Conversion(Convert.ToDouble(value), fromCurrencyId, toCurrencyId).ToString("0.######");
+            convertedValue.Text = this.Conversion(value, fromCurrencyId, toCurrencyId).ToString("0.######");
             //sorry i had to put it in one line, no time to waste time :)
         }
         ///<summary>
@@ -112,7 +112,7 @@ namespace Currency_Converter
         ///<param name="toCur">To what currency</param>
         ///<returns>The converted value</returns>
         public double Conversion(double amount, string fromCur,string toCur)
-        {
+        { 
             Query q = new Query();
             //get "from" record
             q.GetExtra("SELECT currency_code,currency_symbol,currency_name,rate FROM currencies WHERE currency_code = '"+fromCur+"'");
@@ -123,7 +123,6 @@ namespace Currency_Converter
             //first know if the rate is greater than 1, we multiply, else we divide
             double fromRate = Convert.ToDouble(fromRec[3]);
             double fromAmount = this.InnerConversion(amount, fromRate);//in dollar
-           
             //get "to" record
             q.GetExtra("SELECT currency_code,currency_symbol,currency_name,rate FROM currencies WHERE currency_code = '" + toCur+"'");
             q.Record();
@@ -133,6 +132,7 @@ namespace Currency_Converter
             //first know if the rate is greater than 1, we multiply, else we divide
             double toRate = Convert.ToDouble(toRec[3]);
             double toAmount = this.InnerConversion(fromAmount, toRate,false);//convert from dollar to the new currency
+
             //now fill in some stuff
             RateStoryBorder.Opacity = 1;
             RateStory.Opacity = 1;
@@ -143,6 +143,8 @@ namespace Currency_Converter
             double theToRateVal = this.InnerConversion(theFromRateVal, toRate, false);
             double rateVal = theToRateVal;//just put it here, no much reason
             RateText.Text = fromRec[1] + "1 ("+fromRec[0]+") = " + toRec[1]+rateVal.ToString("0.#####")+" ("+toRec[0]+")";
+            double toate = Convert.ToDouble(toRec[6]);
+          
             return toAmount;
         }
         /// <summary>
@@ -157,15 +159,17 @@ namespace Currency_Converter
             //first know if the rate is greater than 1, we multiply, else we divide
            double newAmount = 0;
            if (dollarConvert == true)//convert to dollar
-           {
+           {/* the old struggle, geez
                if (rate > 1)//multiply,cause dollar is higher, since we're converting to dollar first
                {
-                   newAmount = amount * rate;
+                   newAmount = amount / rate;
                }
                else
                {//divide cause dollar is lower, since we're converting to dollar first
                    newAmount = amount / rate;
-               }
+               }*/
+               //divide no matter what , cause dollar is higher than most currencies, doesnt mean sef, if you divide with british pounds, 0.76 to a dollar, you still get a higher value which is meant to be so. chai after how many hours :)
+               newAmount = amount / rate;
            }
            else
            {//guess we're converting from dollar to another currency
