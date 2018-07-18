@@ -46,7 +46,7 @@ namespace Currency_Converter
         /// <param name="e"></param>
         private void UpdateDBCurrency_Click(object sender, RoutedEventArgs e)
         {
-            /*
+            /*leave for later. :)
             var client = new HttpClient();
 
             // Create the HttpContent for the form to be posted.

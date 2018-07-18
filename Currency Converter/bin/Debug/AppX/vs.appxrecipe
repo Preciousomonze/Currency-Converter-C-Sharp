@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>a9da0371-6457-49e4-ad92-820600f5933c</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>41406A95FFCF5036C0699EC16179FC5CEC89E5E5441D68E8164E230BDF4E641D</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>21D1DB55E63B874D0C13B0C7F9480C4B01A80453AA620FB22561E7C7B36854EE</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a9da0371-6457-49e4-ad92-820600f5933c_1.0.0.0_neutral__qxzbskng17ek6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a9da0371-6457-49e4-ad92-820600f5933c_qxzbskng17ek6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a9da0371-6457-49e4-ad92-820600f5933c</RegisteredPackageID>
@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-18T02:10:25.167</Modified>
+      <Modified>2018-07-18T17:04:17.035</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\Currency Converter.exe">
       <PackagePath>Currency Converter.exe</PackagePath>
-      <Modified>2018-07-18T15:43:58.389</Modified>
+      <Modified>2018-07-18T17:04:16.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.0\MySql.Data.RT.dll">
       <PackagePath>MySql.Data.RT.dll</PackagePath>
@@ -37,17 +37,51 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-07-18T01:00:25.852</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\logo.scale-80.png">
+      <PackagePath>Assets\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-07-18T01:00:25.852</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2018-07-18T01:00:25.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
       <Modified>2018-07-18T01:00:25.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\Square30x30Logo.scale-100.png">
+      <PackagePath>Assets\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-07-18T01:00:25.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-07-18T01:00:25.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-07-18T01:00:25.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-07-18T01:00:25.852</Modified>
     </AppxPackagedFile>
@@ -65,7 +99,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-07-18T15:37:44.469</Modified>
+      <Modified>2018-07-18T17:04:16.895</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
