@@ -34,6 +34,8 @@ C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Conver
 C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\bin\Debug\MySql.Data.RT.dll
 C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\en-US\MySql.Data.RT.Properties.Resources.resw
 C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\Currency Converter.csproj.GenerateResource.Cache
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT.pri
+C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\qualifiers.txt
 C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\layout.resfiles
 C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\layout.resfiles.intermediate
 C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\Resources.resfiles
@@ -42,5 +44,3 @@ C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Conver
 C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\pri.resfiles.intermediate
 C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\priconfig.xml
 C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\priconfig.xml.intermediate
-C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT.pri
-C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\obj\Debug\MySql.Data.RT\qualifiers.txt

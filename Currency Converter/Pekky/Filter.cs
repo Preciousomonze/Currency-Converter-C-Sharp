@@ -93,12 +93,11 @@ namespace Currency_Converter.Pekky
         /// </summary>
         /// <param name="value">the phone number to be checked</param>
         /// <param name="msg">the message to display to the frontend when it returns false,optional,if empty, nothing will be displayed</param>
-        /// <returns>returns true if valid, and false if not.</returns>
+        /// <returns>True if valid, and false if not.</returns>
         public bool CheckPhone(string value, string msg = "")
         {
             //regular expression for phone number
             string regexPattern = @"^(\+{1}|00)\s{0,1}([0-9]{3}|[0-9]{2})\s{0,1}\-{0,1}\s{0,1}([0-9]{2}|[1-9]{1})\s{0,1}\-{0,1}\s{0,1}([0-9]{8}|[0-9]{7})";
-
             if (System.Text.RegularExpressions.Regex.IsMatch(value, regexPattern))
             {
                 //      this.Token = 1;

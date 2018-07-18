@@ -9,39 +9,78 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <Grid Background="#4BA783">
+        <Grid Background="OrangeRed">
             <ScrollBar HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
             <StackPanel>
-
+                
                 <StackPanel x:Name="title" Width="auto" Height="100" Background="#ffffff" Margin="0 2 0 0">
 
                     <TextBlock Text="Currency Converter" Foreground="Gray" FontSize="50" HorizontalAlignment="Center" Margin="10 35 55 10"/>
                     <Border BorderBrush="#cc000000" BorderThickness="1"/>
 
                 </StackPanel>
-                <Border BorderBrush="#33000000" BorderThickness="1" Width="700" Margin="0 20 0 10">
-                    <StackPanel Background="#ffffff" Width="700" MinHeight="400" Orientation="vertical" Margin="0 0 0 0">
-                        <TextBox x:Name="name" Width="auto" PlaceholderText="Your Name (Firstname + Surname)" Height="50" Padding="10 15 0 0" BorderBrush="#33000000" Background="#f9f9f9" BorderThickness="1" Margin="10 100 10 20"/>
-                        <TextBox x:Name="department" Width="auto" PlaceholderText="Department" Height="50" Padding="10 15 0 0" BorderBrush="#33000000" Background="#f9f9f9" BorderThickness="1" Margin="10 20 10 20"/>
-                        <TextBox x:Name="username" Width="auto" PlaceholderText="Username" Height="50" Padding="10 15 0 0" BorderBrush="#33000000" Background="#f9f9f9" BorderThickness="1" Margin="10 20 10 20"/>
-                        <ComboBox x:Name="gender" Height="50" Padding="10 15 0 0" PlaceholderText="Gender" BorderBrush="#33000000" Background="#f9f9f9" BorderThickness="1" Margin="10 20 10 20">
-                         </ComboBox>
-                        <Button x:ConnectionId='2' x:Name="ConvertBtn"                           HorizontalAlignment="Right" Content="Sign Up" FontSize="20" Width="120" Height="60" Margin="0 30 10 0" BorderBrush="#26000000" BorderThickness="1"   Background="#4ba783" Foreground="#ffffff"/>
-                    </StackPanel>
-                </Border>
-                <StackPanel Orientation="Horizontal" Width="700" HorizontalAlignment="Right">
-                    <TextBlock Text="Already have an account?" FontSize="17"/>
-                    <HyperlinkButton x:ConnectionId='1' x:Name="UpdateDBCurrency" Foreground="#ffffff" Padding="0" Margin="5 -6 0 0"                               >
-                        <HyperlinkButton.Content>
-                            Update databasse currency value
-                        </HyperlinkButton.Content>
+                <Grid>
+                    <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
 
-                    </HyperlinkButton>
-                </StackPanel>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="900"/>
+                    <ColumnDefinition Width="400"/>
+                </Grid.ColumnDefinitions>
+                <!-- firs row-->
+                    <ContentControl x:Name="overlay">
+                        <StackPanel x:Name="CalcPanel" Grid.Column="0">
+                            <Border BorderBrush="#33000000" BorderThickness="1" Width="700" Margin="100 20 10 10">
+                                <StackPanel Background="#ffffff" Width="auto" MinHeight="400" Orientation="vertical" Margin="0 0 0 0">
+                                    <TextBox x:Name="ConvertValue" Width="auto" PlaceholderText="Amount" Height="50" Padding="10 15 0 0" BorderBrush="#33000000" Background="#f9f9f9" BorderThickness="1" Margin="10 100 10 20"/>
+                                    <ComboBox x:Name="ConvertFrom" Height="50" Padding="10 15 0 0" ToolTipService.ToolTip="Select the currency you want to convert from" PlaceholderText="From" BorderBrush="#33000000" Background="#f9f9f9" BorderThickness="1" Margin="10 20 10 20">
+                                        <ComboBoxItem Foreground="#33000000" IsEnabled="False">Select Currency to convert from</ComboBoxItem>
+                                    </ComboBox>
+                                    <ComboBox x:Name="ConvertTo" Height="50" Padding="10 15 0 0" ToolTipService.ToolTip="Select the currency you're converting to" PlaceholderText="To" BorderBrush="#33000000" Background="#f9f9f9" BorderThickness="1" Margin="10 20 10 20">
+                                        <ComboBoxItem Foreground="#33000000" IsEnabled="False">Select Currency to convert to</ComboBoxItem>
+                                    </ComboBox>
+                                    <Button x:ConnectionId='2' x:Name="ConvertBtn"                           HorizontalAlignment="Stretch" Content="Convert" FontSize="20" Width="150" Height="60" Margin="0 30 10 0" BorderBrush="#26000000" BorderThickness="1" Background="OrangeRed" Foreground="#ffffff"/>
+                                    <TextBox x:Name="convertedValue" IsReadOnly="True" Width="auto" PlaceholderText="Result" Height="50" Padding="10 15 0 0" BorderBrush="#33000000" Background="#f9f9f9" BorderThickness="1" Margin="10 20 10 20"/>
+                                </StackPanel>
+                            </Border>
+                            <StackPanel Orientation="Horizontal" Width="700" HorizontalAlignment="Right">
+                                <TextBlock Text="" FontSize="17"/>
+                                <HyperlinkButton x:ConnectionId='1' x:Name="UpdateDBCurrency" ToolTipService.ToolTip="Click this to update new currency value into the database, note, internet is required" Foreground="#ffffff" Padding="0" Margin="5 -6 0 0"                               >
+                                    <HyperlinkButton.Content>
+                                        Update Conversion rate
+                                    </HyperlinkButton.Content>
+
+                                </HyperlinkButton>
+                            </StackPanel>
+                    </StackPanel>
+                    </ContentControl>
+                    <!--end of first column-->
+
+                <!--Second column-->
+                    <StackPanel Grid.Column="1">
+                        <Border x:Name="RateStoryBorder" Opacity="0" BorderBrush="#33000000" BorderThickness="1 1 1 1" Width="auto" Margin="0 50 0 10">
+                            <StackPanel x:Name="RateStory" Opacity="0" Width="auto" MinHeight="400" Orientation="vertical" Margin="0 0 0 0" Background="#fc000000">
+                                <StackPanel>
+                                    <TextBlock x:Name="RateTitle" Text="" FontSize="45" Foreground="#ffffff" Margin="20 50 20 30"/>
+                                </StackPanel>
+                                <Border BorderBrush="#33ffffff" BorderThickness="1"/>
+                                <StackPanel>
+                                    <TextBlock x:Name="RateFromTo" Text="" FontSize="25" Foreground="#ffffff" HorizontalAlignment="Center" Margin="20 30 20 50"/>
+                                </StackPanel>
+                                <Border BorderBrush="#33ffffff" BorderThickness="1"/>
+                                <StackPanel>
+                                    <TextBlock x:Name="RateText" Text="" FontSize="20" Foreground="#ffffff" Margin="20 30 20 30"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </Grid>
+            
                 <StackPanel Width="700" Margin="0 30 0 0">
                     <Border BorderBrush="#33ffffff" BorderThickness="1"/>
-                    <TextBlock x:Name="copyright" Text="2017. All Rights Reserved" HorizontalAlignment="Center" FontSize="15" Padding="0 20 0 0"/>
+                    <TextBlock x:Name="copyright" Text="2018. All Rights Reserved" HorizontalAlignment="Center" FontSize="15" Padding="0 20 0 0"/>
                 </StackPanel>
             </StackPanel>
 

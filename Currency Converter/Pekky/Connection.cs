@@ -23,7 +23,7 @@ namespace Currency_Converter.Pekky
         /// this idea was gotten with the help of Ope, cool though, so that way, anytime the ChooseDB() method is called, 
         /// the value entered is what the global variable that this variable holds is changed to :).
         /// </summary>
-        private string database = ((App.Current as App).Db_name.Trim() == "") ? "patho" : (App.Current as App).Db_name;
+        private string database = ((App.Current as App).Db_name.Trim() == "") ? "currency_converter" : (App.Current as App).Db_name;
         public string Database
         {
             get { return database; }
@@ -34,7 +34,7 @@ namespace Currency_Converter.Pekky
         /// Establishes a connection.
         /// </summary>
         /// <param name="connect">Optional.</param>
-        public Connection(string connect = "server=localhost;port=3306;userid=root;database=patho;password=;sslmode=None")
+        public Connection(string connect = "server=localhost;port=3306;userid=root;database=currency_converter;password=;sslmode=None")
         {
             //value[0] = "server=localhost";
             //value[1] = "database=patho";

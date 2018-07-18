@@ -28,7 +28,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\outside sem 3\Currency Converter\Currency Converter\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
