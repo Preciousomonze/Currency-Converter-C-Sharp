@@ -29,7 +29,7 @@ namespace Currency_Converter
             //get currencies
             Query q = new Query();
             //get "from" record
-            q.GetExtra("SELECT currency_code,currency_symbol,currency_name,rate FROM currencies WHERE rate != '' ORDER BY currency_name ASC");
+            q.GetExtra("SELECT currency_code,currency_symbol,currency_name,rate FROM currencies WHERE (rate != '') OR !(rate <= 0) ORDER BY currency_name ASC");
             q.Records();
             string[,] currencies = q.Results;
             
